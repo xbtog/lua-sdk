@@ -21,7 +21,7 @@ function cheat:get_resource_path() end
 function cheat:get_local_attack_cast_delay() end
 
 ---@return number
-function cheat:get_local_attack_cast_delay() end
+function cheat:get_local_attack_delay() end
 
 ---@type cheat
 _G.cheat = {}
