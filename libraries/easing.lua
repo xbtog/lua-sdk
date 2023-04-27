@@ -1,103 +1,100 @@
----@class easing
-local easing = {}
-
----@param progress number
----@param factor number
----@return number
-function easing:ease_out(progress, factor) end
-
----@param progress number
----@param factor number
----@return number
-function easing:ease_in(progress, factor) end
-
----@param progress number
----@return number
-function easing:ease_in_out(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_quad(progress) end
-
----@param progress number
----@return number
-function easing:ease_out_quad(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_out_quad(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_cubic(progress) end
-
----@param progress number
----@return number
-function easing:ease_out_cubic(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_out_cubic(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_quart(progress) end
-
----@param progress number
----@return number
-function easing:ease_out_quart(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_out_quart(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_quint(progress) end
-
----@param progress number
----@return number
-function easing:ease_out_quint(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_out_quint(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_sine(progress) end
-
----@param progress number
----@return number
-function easing:ease_out_sine(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_out_sine(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_expo(progress) end
-
----@param progress number
----@return number
-function easing:ease_out_expo(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_out_expo(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_circ(progress) end
-
----@param progress number
----@return number
-function easing:ease_out_circ(progress) end
-
----@param progress number
----@return number
-function easing:ease_in_out_circ(progress) end
-
----@type easing
-_G.easing = {}
+_G.easing = {
+    ---@param progress number
+    ---@param factor number | nil
+    ---@return number
+    ease_out = function(progress, factor)
+    end,
+    ---@param progress number
+    ---@param factor number | nil
+    ---@return number
+    ease_in = function(progress, factor)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_out = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_quad = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_out_quad = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_out_quad = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_cubic = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_out_cubic = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_out_cubic = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_quart = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_out_quart = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_out_quart = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_quint = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_out_quint = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_out_quint = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_sine = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_out_sine = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_out_sine = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_expo = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_out_expo = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_out_expo = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_circ = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_out_circ = function(progress)
+    end,
+    ---@param progress number
+    ---@return number
+    ease_in_out_circ = function(progress)
+    end,
+}
