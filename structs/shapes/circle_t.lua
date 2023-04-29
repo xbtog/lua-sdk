@@ -6,7 +6,7 @@ local circle_t = {}
 ---@param center vec3
 ---@param radius number
 ---@return circle_t Returns a circle_t object
-function circle_t:new(center, radius) end
+function circle_t.new(center, radius) end
 
 ---@param offset number
 ---@param override_width number

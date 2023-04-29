@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/missile_instance_t)
+]]
 ---@class missile_instance_t
 ---@field public type e_spell_type
 ---@field public index number
@@ -33,4 +36,8 @@ function missile_instance_t:get_time_till_impact() end
 function missile_instance_t:should_dodge() end
 
 ---@return boolean Returns true if the missile is dangerous.
-function missile_instance_t:is_dangerous() end
+function missile_instance_t:is_dangerous()
+end
+
+---@type missile_instance_t
+_G.missile_instance_t = {}

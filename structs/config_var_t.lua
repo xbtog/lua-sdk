@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/config_var_t)
+]]
 ---@class config_var_t
 local config_var_t = {}
 
@@ -20,4 +23,8 @@ function config_var_t:set_float(value) end
 
 ---@param value boolean
 ---@return void
-function config_var_t:set_bool(value) end
+function config_var_t:set_bool(value)
+end
+
+---@type config_var_t
+_G.config_var_t = {}

@@ -51,7 +51,7 @@ function vec3:to_minimap() end
 ---@param y number
 ---@param z number
 ---@return vec3
-function vec3:new(x, y, z) end
+function vec3.new(x, y, z) end
 
 ---@type vec3
 _G.vec3 = {}

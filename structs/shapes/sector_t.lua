@@ -10,7 +10,7 @@ local sector_t = {}
 ---@param angle number
 ---@param radius number
 ---@return sector_t Returns a sector_t object
-function sector_t:new(center, direction, angle, radius) end
+function sector_t.new(center, direction, angle, radius) end
 
 ---@param offset number
 ---@return polygon_t Converts the sector to a polygon_t object

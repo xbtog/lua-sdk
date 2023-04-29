@@ -10,7 +10,7 @@ local rectangle_t = {}
 ---@param end_pos vec3
 ---@param width_start number
 ---@return rectangle_t Returns a rectangle_t object
-function rectangle_t:new(start, end_pos, width_start) end
+function rectangle_t.new(start, end_pos, width_start) end
 
 ---@param offset number
 ---@param override_width number

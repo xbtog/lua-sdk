@@ -10,7 +10,7 @@ local arc_t = {}
 ---@param start vec3
 ---@param distance number
 ---@return arc_t Returns a arc_t object
-function arc_t:new(end_pos, hitbox, start, distance) end
+function arc_t.new(end_pos, hitbox, start, distance) end
 
 ---@param center1 vec3
 ---@param center2 vec3

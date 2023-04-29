@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/spell_instance_t)
+]]
 ---@class spell_instance_t
 ---@field public source_index number
 ---@field public type number
@@ -25,3 +28,6 @@
 ---@field public cc boolean
 ---@field public manual_end_time boolean
 local spell_instance_t = {}
+
+---@type spell_instance_t
+_G.spell_instance_t = {}
