@@ -48,3 +48,7 @@ function c_section:button(label, on_click) end
 ---@param on_click function
 ---@return c_conditional
 function c_section:add_conditional(on_click) end
+
+---@param label string
+---@return boolean
+function c_section:find_child(label) end
