@@ -15,4 +15,6 @@ _G.cheat = {
     get_local_attack_cast_delay = function() end,
     ---@return number
     get_local_attack_delay = function() end,
+    ---@return c_target_selector
+    get_default_target_selector = function() end,
 }

@@ -1,6 +1,7 @@
 ---@class c_spell_cast_info
 ---@field public slot e_spell_slot
 ---@field public missile_index number
+---@field public missile_nid number
 ---@field public start_position vec3
 ---@field public end_position vec3
 ---@field public windup_time number
@@ -9,6 +10,11 @@
 ---@field public end_time number
 ---@field public start_time number
 ---@field public name string
+---@field public is_autoattack boolean
+---@field public is_special_attack boolean
+---@field public was_autoattack_cast boolean
+---@field public was_autoattack_cast2 boolean
+---@field public slot number
 local c_spell_cast_info = {}
 
 ---@return number Returns the index of the target.
