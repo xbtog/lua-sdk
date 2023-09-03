@@ -13,6 +13,7 @@
 ---@field public alt_amount number
 ---@field public name string
 ---@field public amount number
+---field public max_stack number
 local c_buff = {}
 
 ---@return number Get the amount of buff stacks.

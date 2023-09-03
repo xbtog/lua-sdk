@@ -3,7 +3,7 @@ local c_buff_cache = {}
 
 ---@param object_index number
 ---@param name string
----@return c_buff Get a buff by name.
+---@return c_buff | nil Get a buff by name.
 function c_buff_cache:get_buff(object_index, name) end
 
 ---@param object_index number

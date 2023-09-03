@@ -12,6 +12,10 @@
 ---@field public coefficient number
 ---@field public coefficient2 number
 ---@field public cooldown_time number
+---@field public missile_speed number
+---@field public channel_duration number
+---@field public missile_width number
+---@field public owner_character string
 local c_spell_slot = {}
 
 ---@return number

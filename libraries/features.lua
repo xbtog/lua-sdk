@@ -9,3 +9,6 @@ local features = {}
 
 ---@type features
 _G.features = {}
+
+---@type features
+_G.g_features = {}

@@ -14,7 +14,14 @@
 ---@field public is_special_attack boolean
 ---@field public was_autoattack_cast boolean
 ---@field public was_autoattack_cast2 boolean
----@field public slot number
+---@field public owner_character string
+---@field public coefficient number
+---@field public coefficient2 number
+---@field public cooldown_time number
+---@field public mana_cost number
+---@field public missile_speed number
+---@field public channel_duration number
+---@field public missile_width number
 local c_spell_cast_info = {}
 
 ---@return number Returns the index of the target.
