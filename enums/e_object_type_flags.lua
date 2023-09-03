@@ -9,11 +9,8 @@
 ---@field public minion number @ = 1 << 11
 ---@field public hero number @ = 1 << 12
 ---@field public turret number @ = 1 << 13
----@field public unknown0 number @ = 1 << 14
 ---@field public missile number @ = 1 << 15
----@field public unknown1 number @ = 1 << 16
 ---@field public building number @ = 1 << 17
----@field public unknown2 number @ = 1 << 18
 local e_object_type_flags = {}
 
 ---@type e_key_state
