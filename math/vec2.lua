@@ -6,6 +6,22 @@
 ---@field public y number
 local vec2 = {}
 
+---@param other vec2 | number
+---@return number
+function vec2:add(other) end
+
+---@param other vec2 | number
+---@return number
+function vec2:subtract(other) end
+
+---@param other vec2 | number
+---@return number
+function vec2:multiply(other) end
+
+---@param other vec2 | number
+---@return number
+function vec2:divide(other) end
+
 ---@return number
 function vec2:length() end
 

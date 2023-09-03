@@ -1,4 +1,11 @@
 ---@class c_navgrid
+---@field public min_grid_pos vec3
+---@field public max_grid_pos vec3
+---@field public collision_map number
+---@field public sampled_heights number
+---@field public x_cell_count number
+---@field public y_cell_count number
+---@field public cell_size number
 local c_navgrid = {}
 
 ---@param position vec3

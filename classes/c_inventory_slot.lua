@@ -3,5 +3,5 @@
 ---@field public stacks number
 local c_inventory_slot = {}
 
----@return c_item_data
+---@return c_base_item
 function c_inventory_slot:get_base_item() end
