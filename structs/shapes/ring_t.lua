@@ -14,5 +14,11 @@ function ring_t.new(center, radius, ring_radius) end
 ---@return polygon_t Converts the ring to a polygon_t object
 function ring_t:to_polygon(offset) end
 
+---@param center vec3
+---@param radius number
+---@param ring_radius number
+---@return color
+function ring_t.new(center, radius, ring_radius) end
+
 ---@type ring_t
 _G.ring_t = {}

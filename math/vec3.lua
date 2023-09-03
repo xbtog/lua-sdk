@@ -7,15 +7,39 @@
 ---@field public z number
 local vec3 = {}
 
+---@param other vec3 | number
+---@return number
+function vec3:add(other) end
+
+---@param other vec3 | number
+---@return number
+function vec3:subtract(other) end
+
+---@param other vec3 | number
+---@return number
+function vec3:multiply(other) end
+
+---@param other vec3 | number
+---@return number
+function vec3:divide(other) end
+
+
 ---@return number
 function vec3:length() end
 
 ---@return number
 function vec3:length2d() end
 
+---@return number
+function vec3:length_squared() end
+
 ---@param other vec3
 ---@return number
 function vec3:dist_to(other) end
+
+---@param other vec3
+---@return number
+function vec3:dist_to_squared(other) end
 
 ---@param other vec3
 ---@return number
@@ -27,6 +51,9 @@ function vec3:cross(other) end
 
 ---@return vec3
 function vec3:normalized() end
+
+---@return vec3
+function vec3:normalize_in_place() end
 
 ---@param other vec3
 ---@return number
@@ -41,7 +68,7 @@ function vec3:rotated(angle) end
 ---@return vec3
 function vec3:extend(to, distance) end
 
----@return vec3 | nil
+---@return vec2 | nil
 function vec3:to_screen() end
 
 ---@return vec2 | nil

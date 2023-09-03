@@ -21,5 +21,11 @@ function rectangle_t:to_polygon(offset, override_width) end
 ---@return table<vec3> Returns a table containing the intersection points
 function rectangle_t:intersection(circle) end
 
+---@param start_pos vec3
+---@param end_ps vec3
+---@param width_start number
+---@return color
+function rectangle_t.new(start_pos, end_ps, width_start) end
+
 ---@type ring_t
 _G.rectangle_t = {}

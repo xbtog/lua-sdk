@@ -23,5 +23,11 @@ function arc_t:circle_circle_intersection(center1, center2, radius1, radius2) en
 ---@return polygon_t Converts the arc to a polygon_t object
 function arc_t:to_polygon(offset) end
 
+---@param start_pos vec3
+---@param end_pos vec3
+---@param hitbox number
+---@return color
+function arc_t.new(start_pos, end_pos, hitbox) end
+
 ---@type arc_t
 _G.arc_t = {}

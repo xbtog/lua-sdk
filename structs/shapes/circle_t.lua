@@ -14,5 +14,10 @@ function circle_t.new(center, radius) end
 ---@return polygon_t Converts the circle to a polygon_t object
 function circle_t:to_polygon(offset, override_width, segments) end
 
+---@param center vec3
+---@param radius number
+---@return color
+function circle_t.new(center, radius) end
+
 ---@type ring_t
 _G.circle_t = {}

@@ -16,5 +16,12 @@ function sector_t.new(center, direction, angle, radius) end
 ---@return polygon_t Converts the sector to a polygon_t object
 function sector_t:to_polygon(offset) end
 
+---@param center vec3
+---@param direction vec3
+---@param radius number
+---@param angle number
+---@return color
+function sector_t.new(center, direction, angle, radius) end
+
 ---@type sector_t
 _G.sector_t = {}

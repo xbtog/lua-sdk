@@ -15,5 +15,15 @@ local color = {}
 ---@return color
 function color.new(r, g, b, a) end
 
+---@param r number
+---@param g number
+---@param b number
+---@return color
+function color.new(r, g, b) end
+
+---@return color
+function color.new() end
+
+
 ---@type color
 _G.color = {}
