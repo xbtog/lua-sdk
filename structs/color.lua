@@ -24,6 +24,20 @@ function color.new(r, g, b) end
 ---@return color
 function color.new() end
 
+---@return color
+function color.black() end
+
+---@return color
+function color.white() end
+
+---@return color
+function color.red() end
+
+---@return color
+function color.green() end
+
+---@return color
+function color.blue() end
 
 ---@type color
 _G.color = {}

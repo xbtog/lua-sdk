@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_object/c_spell_cast_info)
+]]
 ---@class c_spell_cast_info
 ---@field public missile_index number
 ---@field public missile_nid number

@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/enums/e_special_spell)
+]]
 ---@class e_special_spell
 ---@field public none number @ = 0
 ---@field public ashe_r number @ = 1

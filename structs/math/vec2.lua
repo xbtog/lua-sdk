@@ -1,5 +1,5 @@
 --[[
-[View Documentation](https://slotted.cc/docs/structs/vec2)
+[View Documentation](https://slotted.cc/docs/structs/math/vec2)
 ]]
 ---@class vec2
 ---@field public x number

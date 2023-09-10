@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/enums/e_buff_type)
+]]
 ---@class e_buff_type
 ---@field public internal number
 ---@field public aura number

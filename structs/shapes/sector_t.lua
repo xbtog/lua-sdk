@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/math/sector_t)
+]]
 ---@class sector_t
 ---@field center vec3
 ---@field direction vec3

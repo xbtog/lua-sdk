@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/enums/e_object_type_flags)
+]]
 ---@class e_object_type_flags
 ---@field public game_object number @ = 1 << 0
 ---@field public neutral_camp number @ = 1 << 1

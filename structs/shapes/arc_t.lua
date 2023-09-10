@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/math/arc_t)
+]]
 ---@class arc_t
 ---@field end_pos vec3
 ---@field hitbox number

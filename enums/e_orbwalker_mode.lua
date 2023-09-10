@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/enums/e_orbwalker_mode)
+]]
 ---@class e_orbwalker_mode
 ---@field public none number @ = 0
 ---@field public combo number @ = 1

@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/math/circle_t)
+]]
 ---@class circle_t
 ---@field center vec3
 ---@field radius number

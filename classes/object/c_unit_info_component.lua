@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_object/c_unit_info_component)
+]]
 ---@class c_unit_info_component
 local c_unit_info_component = {}
 

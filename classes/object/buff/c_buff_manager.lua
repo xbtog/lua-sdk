@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_object/c_buff_manager)
+]]
 ---@class c_buff_manager
 local c_buff_manager = {}
 

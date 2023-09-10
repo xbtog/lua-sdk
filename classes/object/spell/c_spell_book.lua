@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_object/c_spell_book)
+]]
 ---@class c_spell_book
 local c_spell_book = {}
 

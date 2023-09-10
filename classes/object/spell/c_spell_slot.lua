@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_object/c_spell_slot)
+]]
 ---@class c_spell_slot
 ---@field public level number
 ---@field public cooldown_expire number

@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_object)
+]]
 ---@class c_object
 ---@field public index number
 ---@field public team number

@@ -1,4 +1,7 @@
-﻿---@class e_spell_slot
+﻿--[[
+[View Documentation](https://slotted.cc/docs/enums/e_spell_slot)
+]]
+---@class e_spell_slot
 ---@field public q number @ = 0
 ---@field public w number @ = 1
 ---@field public e number @ = 2

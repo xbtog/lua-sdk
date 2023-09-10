@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_object/c_buff)
+]]
 ---@class c_buff
 ---@field public active boolean
 ---@field public hard_cc boolean

@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/math/polygon_t)
+]]
 ---@class polygon_t
 ---@field public points table<number, vec3>
 local polygon_t = {}

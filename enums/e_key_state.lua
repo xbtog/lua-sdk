@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/enums/e_key_state)
+]]
 ---@class e_key_state
 ---@field public key_down number @ = 0
 ---@field public key_up number @ = 1

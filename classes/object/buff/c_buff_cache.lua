@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/features/c_buff_cache)
+]]
 ---@class c_buff_cache
 local c_buff_cache = {}
 

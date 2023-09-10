@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/math/rectangle_t)
+]]
 ---@class rectangle_t
 ---@field direction vec3
 ---@field perpendicular vec3

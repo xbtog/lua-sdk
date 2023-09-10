@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/enums/e_key)
+]]
 ---@class e_key
 ---@field public lbutton number @ = 1
 ---@field public rbutton number @ = 2

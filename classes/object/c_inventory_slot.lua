@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_object/c_inventory_slot)
+]]
 ---@class c_inventory_slot
 ---@field public update_time number
 ---@field public stacks number

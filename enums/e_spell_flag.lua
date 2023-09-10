@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/enums/e_spell_flag)
+]]
 ---@class e_spell_flag
 ---@field public q_spell number @ = 1
 ---@field public w_spell number @ = 2

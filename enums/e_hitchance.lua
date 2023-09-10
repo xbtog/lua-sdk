@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/enums/e_hitchance)
+]]
 ---@class e_hitchance
 ---@field public low number @ = 0
 ---@field public medium number @ = 1
