@@ -29,5 +29,17 @@ function c_target_selector:is_bad_target(index, ignore_dead, ignore_invisible) e
 ---@return boolean
 function c_target_selector:force_target(target) end
 
+---@param danger_distance number
 ---@return c_object | nil
-function c_target_selector:get_antigapclose_target() end
+function c_target_selector:get_antigapclose_target(danger_distance) end
+
+---@param target c_object | number | nil
+---@return boolean
+function c_target_selector:set_forced_target(target) end
+
+---@return nil
+function c_target_selector:reset_forced_target() end
+
+---@param champion_name string
+---@return number
+function c_target_selector:get_target_priority(champion_name) end
