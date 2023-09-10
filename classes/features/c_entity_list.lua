@@ -41,3 +41,6 @@ function c_entity_list:get_by_network_id(network_id) end
 
 ---@return table<number, c_object> Get a list of all objects.
 function c_entity_list:get_all() end
+
+
+
