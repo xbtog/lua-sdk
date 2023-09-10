@@ -8,3 +8,7 @@ function c_response:json() end
 
 ---@return string
 function c_response:text() end
+
+---@param path string
+---@return boolean
+function c_response:to_file(path) end
