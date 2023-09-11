@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_config)
+]]
 ---@class g_config : c_config
 local g_config = {}
 

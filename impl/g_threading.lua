@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/classes/c_threading)
+]]
 ---@class g_threading : c_threading
 local g_threading = {}
 

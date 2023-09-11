@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/tables/cheat)
+]]
 _G.cheat = {
     ---@param name "lua.load" | "features.prediction" | "features.entity_list" | "features.buff_cache" | "features.evade" | "features.target_selector" | "renderer.draw" | "features.orbwalker.on_spell_casted" | "features.orbwalker.on_auto_attacked" | "lua.unload" | "local.cast_spell" | "local.issue_order_attack" | "local.issue_order_move" | "features.pre_run" | "features.run" | "features.orbwalker" | string
     ---@param callback function

@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/tables/features)
+]]
 ---@class features
 ---@field public buff_cache c_buff_cache
 ---@field public entity_list c_entity_list

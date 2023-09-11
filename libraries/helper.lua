@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/tables/helper)
+]]
 _G.helper = {
     ---@param raw_damage number
     ---@param target_index number

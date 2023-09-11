@@ -1,3 +1,6 @@
+--[[
+[View Documentation](https://slotted.cc/docs/tables/easing)
+]]
 _G.easing = {
     ---@param progress number
     ---@param factor number | nil

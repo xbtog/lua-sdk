@@ -23,7 +23,6 @@ function vec3:multiply(other) end
 ---@return number
 function vec3:divide(other) end
 
-
 ---@return number
 function vec3:length() end
 
