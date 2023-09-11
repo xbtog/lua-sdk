@@ -73,7 +73,7 @@ function c_orbwalker:override_target(target_index, require_attack) end
 
 ---@param target_index number
 ---@return boolean
-function c_orbwalker:is_unit_headshottable() end
+function c_orbwalker:is_unit_headshottable(target_index) end
 
 ---@return vec3 | nil
 function c_orbwalker:get_target_autospacing_position() end
