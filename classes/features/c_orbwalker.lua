@@ -103,3 +103,44 @@ function c_orbwalker:get_spellfarm_target_index() end
 ---@param target c_object
 ---@return boolean
 function c_orbwalker:should_attack_target(target) end
+
+---@return c_object | nil
+function c_orbwalker:is_autoattack_allowed() end
+
+---@return c_object | nil
+function c_orbwalker:is_movement_allowed() end
+
+---@return c_object | nil
+function c_orbwalker:get_lasthit_target() end
+
+---@param fast_clear boolean
+---@return c_object | nil
+function c_orbwalker:get_laneclear_target(fast_clear) end
+
+---@return c_object | nil
+function c_orbwalker:get_freeze_target() end
+
+---@return c_object | nil
+function c_orbwalker:get_senna_soul_target() end
+
+---@return c_object | nil
+function c_orbwalker:get_xayah_passive_harass_target() end
+
+---@return c_object | nil
+function c_orbwalker:get_special_target() end
+
+---@return c_object | nil
+function c_orbwalker:get_special_target_low_priority() end
+
+---@return c_object | nil
+function c_orbwalker:get_turret_target() end
+
+---@return boolean
+function c_orbwalker:can_attack_turret() end
+
+---@return vec3 | nil
+function c_orbwalker:get_magnet_position() end
+
+---@param index number
+---@return boolean
+function c_orbwalker:can_override_attack(index) end
