@@ -41,3 +41,15 @@ function c_prediction:count_minions_in_line(start_pos, end_pos, projectile_width
 ---@param predict_multiple_attacks boolean | nil
 ---@return number Returns the predicted health of the object after the specified delay.
 function c_prediction:predict_minion_health(index, delay, predict_multiple_attacks) end
+
+---@param target_index number
+---@param projectile_range number
+---@param projectile_speed number
+---@param projectile_width number
+---@param delay number
+---@param source_position vec3 | nil
+---@param extend boolean | nil
+---@param flags number | nil
+---@param spell_type e_spell_type | nil
+---@return prediction_result_t
+function c_prediction:predict(target_index, projectile_range, projectile_speed, projectile_width, delay, source_position, extend, flags, spell_type) end
