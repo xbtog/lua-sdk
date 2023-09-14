@@ -23,5 +23,5 @@ function c_window:get_width() end
 function c_window:is_opened() end
 
 ---@param position vec2
----@return void
+---@return nil
 function c_window:set_position(position) end

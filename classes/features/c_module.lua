@@ -2,7 +2,7 @@
 
 ---@class c_module
 ---@field public priority_list table<e_spell_flag>
-local c_buff = {}
+local c_module = {}
 
 ---@return boolean
 function c_module:spell_q() end
@@ -17,19 +17,19 @@ function c_module:spell_e() end
 function c_module:spell_r() end
 
 ---@param func function
----@return void
+---@return nil
 function c_module:disable_q_on(func) end
 
 ---@param func function
----@return void
+---@return nil
 function c_module:disable_w_on(func) end
 
 ---@param func function
----@return void
+---@return nil
 function c_module:disable_e_on(func) end
 
 ---@param func function
----@return void
+---@return nil
 function c_module:disable_r_on(func) end
 
 ---@return c_spell_slot

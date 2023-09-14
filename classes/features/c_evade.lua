@@ -15,7 +15,7 @@ function c_evade:is_active() end
 ---@return vec3 Returns the safe position.
 function c_evade:get_safe_position() end
 
----@return void Disables evade for the current tick.
+---@return nil Disables evade for the current tick.
 function c_evade:disable_this_tick() end
 
 ---@param allow_evade_logic? boolean
