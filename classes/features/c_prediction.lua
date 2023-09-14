@@ -49,7 +49,7 @@ function c_prediction:predict_minion_health(index, delay, predict_multiple_attac
 ---@param delay number
 ---@param source_position vec3 | nil
 ---@param extend boolean | nil
----@param flags number | nil
+---@param flags e_prediction_flags | nil
 ---@param spell_type e_spell_type | nil
 ---@return prediction_result_t
 function c_prediction:predict(target_index, projectile_range, projectile_speed, projectile_width, delay, source_position, extend, flags, spell_type) end
