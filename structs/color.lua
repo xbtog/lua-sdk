@@ -17,6 +17,10 @@ local color = {}
 ---@return color
 function color.new(r, g, b, a) end
 
+---@param clr string
+---@return color
+function color.new(clr) end
+
 ---@param r number
 ---@param g number
 ---@param b number

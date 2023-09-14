@@ -35,4 +35,4 @@ function arc_t:to_polygon(offset) end
 function arc_t.new(start_pos, end_pos, hitbox) end
 
 ---@type arc_t
-_G.arc_t = {}
+_G.arc_t = {} 
