@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_spell_info
 local c_spell_info = {}
 

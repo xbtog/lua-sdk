@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_evade
 local c_evade = {}
 

@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_target_selector
 local c_target_selector = {}
 

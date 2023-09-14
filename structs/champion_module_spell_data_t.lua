@@ -1,3 +1,5 @@
+---@meta
+
 --[[
 [View Documentation](https://slotted.cc/docs/structs/champion_module_spell_data_t)
 ]]

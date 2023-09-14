@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_orbwalker
 ---@field public last_attack_end_time number
 ---@field public last_move_time number

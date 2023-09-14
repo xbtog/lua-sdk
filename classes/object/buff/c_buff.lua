@@ -1,3 +1,5 @@
+---@meta
+
 --[[
 [View Documentation](https://slotted.cc/docs/classes/c_object/c_buff)
 ]]

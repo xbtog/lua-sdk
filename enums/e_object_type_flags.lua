@@ -1,3 +1,5 @@
+---@meta
+
 --[[
 [View Documentation](https://slotted.cc/docs/enums/e_object_type_flags)
 ]]

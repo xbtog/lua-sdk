@@ -1,4 +1,6 @@
-﻿--[[
+﻿---@meta
+
+--[[
 [View Documentation](https://slotted.cc/docs/enums/e_spell_slot)
 ]]
 ---@class e_spell_slot

@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_threading
 local c_threading = {}
 

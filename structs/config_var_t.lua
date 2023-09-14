@@ -1,3 +1,5 @@
+---@meta
+
 --[[
 [View Documentation](https://slotted.cc/docs/structs/config_var_t)
 ]]

@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_hud_manager
 ---@field public cursor_position_clipped vec3
 ---@field public cursor_position_unclipped vec3

@@ -1,3 +1,5 @@
+---@meta
+
 --[[
 [View Documentation](https://slotted.cc/docs/enums/e_spell_flag)
 ]]

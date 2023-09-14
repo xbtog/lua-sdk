@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_config
 local c_config = {}
 

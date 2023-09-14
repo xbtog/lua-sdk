@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_renderer
 local c_renderer = {}
 

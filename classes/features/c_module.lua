@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_module
 ---@field public priority_list table<e_spell_flag>
 local c_buff = {}

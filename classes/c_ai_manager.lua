@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_ai_manager
 ---@field public velocity vec3
 ---@field public is_dashing boolean

@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_window
 ---@field public priority_list table<e_spell_flag>
 local c_window = {}

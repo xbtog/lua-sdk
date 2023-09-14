@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_navgrid
 ---@field public min_grid_pos vec3
 ---@field public max_grid_pos vec3

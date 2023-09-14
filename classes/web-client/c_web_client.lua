@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_web_client
 local c_web_client = {}
 

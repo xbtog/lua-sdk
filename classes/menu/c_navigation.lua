@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_navigation
 local c_navigation = {}
 

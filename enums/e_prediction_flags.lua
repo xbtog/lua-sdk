@@ -1,4 +1,6 @@
-﻿--[[
+﻿---@meta
+
+--[[
 [View Documentation](https://slotted.cc/docs/enums/e_prediction_flags)
 ]]
 ---@class e_prediction_flags

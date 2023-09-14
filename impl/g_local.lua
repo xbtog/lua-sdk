@@ -1,3 +1,5 @@
+---@meta
+
 ---@class g_local : c_object
 local g_local = {}
 

@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_item_data
 ---@field public id number
 ---@field public max_stacks number

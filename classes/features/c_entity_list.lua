@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_entity_list
 local c_entity_list = {}
 

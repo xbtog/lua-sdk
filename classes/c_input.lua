@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_input
 local c_input = {}
 

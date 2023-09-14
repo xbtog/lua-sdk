@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_section
 local c_section = {}
 

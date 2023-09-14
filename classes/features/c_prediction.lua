@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_prediction
 local c_prediction = {}
 

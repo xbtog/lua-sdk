@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_response
 ---@field public success boolean
 ---@field public status number

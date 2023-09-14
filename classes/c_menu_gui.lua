@@ -1,3 +1,5 @@
+---@meta
+
 ---@class c_menu_gui
 ---@field public menu_state number
 local c_menu_gui = {}
