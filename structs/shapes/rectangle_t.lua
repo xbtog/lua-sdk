@@ -32,5 +32,5 @@ function rectangle_t:intersection(circle) end
 ---@return color
 function rectangle_t.new(start_pos, end_ps, width_start) end
 
----@type ring_t
+---@type rectangle_t
 _G.rectangle_t = {}
