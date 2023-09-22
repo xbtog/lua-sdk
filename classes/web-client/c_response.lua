@@ -14,3 +14,6 @@ function c_response:text() end
 ---@param path string
 ---@return boolean
 function c_response:to_file(path) end
+
+---@return table
+function c_response:bytes() end
