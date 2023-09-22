@@ -12,8 +12,8 @@ function c_orbwalker:send_attack(network_id) end
 ---@return boolean Returns true if the orbwalker is in attack.
 function c_orbwalker:is_in_attack() end
 
----@param position vec3
----@param force boolean
+---@param position vec3 | nil
+---@param force boolean | nil
 ---@return void Sends a move input to the orbwalker.
 function c_orbwalker:send_move_input(position, force) end
 
